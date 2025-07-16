@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-mart Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #62cff0;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #62d4f0;
+            margin: 50px auto;
+            width: 80%;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            margin-right: 50px;
+            border-radius: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 250px;
+        }
+
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #62abf0;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #40e0ec;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #bbd3f8;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to K-mart</h1>
+    </header>
+
+    <div class="container">
+        <img src="pexels-anne-363161-985635.jpg" alt="Product Image">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+
+            <label for="phone">Phone No</label>
+            <input type="tel" id="phone">
+
+            <button type="submit">REGISTER</button>
+        </form>
+    </div>
+
+    <footer>&copy; Thank you for registering!</footer>
+</body>
+</html>
